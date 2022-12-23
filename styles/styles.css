@@ -1,0 +1,36 @@
+/* import fonts Outfit 300, 400 and 600*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+
+    /* Primary colors */
+    --clr--primary-color: hsl(215, 51%, 70%);
+    --clr--secondary-color: hsl(178, 100%, 50%);
+    /* Card colors */
+    /* Very dark blue - main background */
+    --clr--main-bg-color: hsl(217, 54%, 11%);
+    /* Very dark blue - card background */
+    --clr--card-bg-color: hsl(216, 50%, 16%);
+    /* Very dark blue */
+    --clr--line-color: hsl(215, 32%, 27%);
+
+    /* Neutral colors */
+    --clr--white-color: hsl(0, 0%, 100%);
+}
+
+/* Defaults */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Attribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
