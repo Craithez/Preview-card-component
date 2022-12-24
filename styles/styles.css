@@ -22,15 +22,23 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 /* Attribution */
 .attribution {
-    font-size: 11px;
+    font-size: 0.688rem;
     text-align: center;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+body {
+    background-color: var(--bg-main);
+    color: var(--colour-blue);
+    font-weight: 300;
+    line-height: 1.6;
+  }
+
+  @media 
