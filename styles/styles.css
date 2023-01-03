@@ -23,6 +23,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
 }
 
 /* Attribution */
@@ -41,4 +42,6 @@ body {
     line-height: 1.6;
   }
 
-  @media (23.438rem)
+  @media (23.438rem);
+
+  
